@@ -19,27 +19,14 @@ export class InternalShipmentPage extends OutboundShipmentPage {
       .check();
   }
 
-  async chooseInternalSearchOption(wrapperId, searchText, optionName) {
-    const combobox = this.page.locator(`#${wrapperId} [role="combobox"]`);
-    await combobox.click();
-    const popupId = await combobox.getAttribute('aria-controls');
-    const popup = this.page.locator(`#${popupId}`);
-    const search = popup.getByPlaceholder('Search...', { exact: true });
-    await expect(search).toBeVisible({ timeout: LOGIN_TIMEOUT });
-    await search.pressSequentially(searchText);
-    const option = popup.getByRole('option', { name: optionName });
-    await expect(option.first()).toBeVisible({ timeout: LOGIN_TIMEOUT });
-    await option.first().click();
-  }
-
   async completeInternalBasicDetails(receiverLocation = 'Cleveland') {
-    await this.chooseInternalSearchOption('Dropdown_Locations', 'Cleveland', /Cleveland/i);
-    await this.chooseInternalSearchOption(
+    await this.chooseSearchOption('Dropdown_Locations', 'Cleveland', /Cleveland/i);
+    await this.chooseSearchOption(
       'Receiver_sDropdown_Location2',
       receiverLocation,
       new RegExp(receiverLocation, 'i'),
     );
-    await this.chooseInternalSearchOption(
+    await this.chooseSearchOption(
       'DropdownSearch_PrimaryInformant',
       'Aditya Mathuria',
       'Aditya Mathuria',
