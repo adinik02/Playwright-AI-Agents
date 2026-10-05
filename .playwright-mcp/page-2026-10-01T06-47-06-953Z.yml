@@ -1,0 +1,646 @@
+- generic [ref=e1]:
+  - generic [ref=e2]:
+    - banner [ref=e4]:
+      - generic [ref=e6]:
+        - generic [ref=e7]:
+          - button "Guide" [active] [ref=e9] [cursor=pointer]
+          - generic [ref=e11]:
+            - link "YouTube Home" [ref=e12] [cursor=pointer]:
+              - /url: /
+            - generic [ref=e16]: IN
+          - button "Skip navigation" [ref=e20] [cursor=pointer]
+        - generic [ref=e24]:
+          - search [ref=e25]:
+            - generic [ref=e27]:
+              - generic [ref=e28]:
+                - combobox "Search" [expanded] [ref=e30]: java program
+                - button "Clear search query" [ref=e103] [cursor=pointer]
+              - button "Search" [ref=e31] [cursor=pointer]
+          - generic [ref=e34]:
+            - button "Search with your voice" [ref=e36] [cursor=pointer]
+            - tooltip "tooltip"
+        - generic [ref=e41]:
+          - button "Settings" [ref=e46] [cursor=pointer]
+          - link "Sign in" [ref=e50] [cursor=pointer]:
+            - /url: https://accounts.google.com/ServiceLogin?service=youtube&uilel=3&passive=true&continue=https%3A%2F%2Fwww.youtube.com%2Fsignin%3Faction_handle_signin%3Dtrue%26app%3Ddesktop%26hl%3Den%26next%3D%252Fresults%253Fsearch_query%253Djava%252Bprogram&hl=en&ec=65620
+    - navigation [ref=e54]:
+      - generic [ref=e77]:
+        - link "Home" [ref=e79] [cursor=pointer]:
+          - /url: /
+        - link "Shorts" [ref=e85] [cursor=pointer]:
+          - /url: /shorts/
+        - link "Subscriptions" [ref=e91] [cursor=pointer]:
+          - /url: /feed/subscriptions
+        - link "You" [ref=e97] [cursor=pointer]:
+          - /url: /feed/you
+    - generic [ref=e55]:
+      - text: •
+      - main [ref=e111]:
+        - generic [ref=e112]:
+          - generic [ref=e114]:
+            - tablist [ref=e119]:
+              - tab "All" [selected] [ref=e122] [cursor=pointer]
+              - tab "Shorts" [ref=e127] [cursor=pointer]
+              - tab "Unwatched" [ref=e132] [cursor=pointer]
+              - tab "Watched" [ref=e137] [cursor=pointer]
+              - tab "Videos" [ref=e142] [cursor=pointer]
+              - tab "Recently uploaded" [ref=e147] [cursor=pointer]
+              - tab "Live" [ref=e152] [cursor=pointer]
+            - generic [ref=e156]:
+              - button "Search filters" [ref=e158] [cursor=pointer]:
+                - generic: Filters
+              - tooltip "tooltip"
+          - generic [ref=e167]:
+            - generic [ref=e176] [cursor=pointer]:
+              - link [aria-hidden] [ref=e177]:
+                - /url: https://www.googleadservices.com/pagead/aclk?sa=L&ai=CuQC06AG-aobOG6vu1_oP5a7noQON9tDFiQHY6raSrxawkB8QASAAYOWq54PEDoIBF2NhLXB1Yi02MjE5ODExNzQ3MDQ5MzcxoAGR882lQ6kCZeXcbiVkRj6oAwTIAwqqBKACT9B193jYzoR0wUZiZ-h8w3l52Kt_JWkhijMx91AmSIjuYNW3ZUr4XH2jg2v4lLlCeJy_GHMACmDBk6x1mfAt8H-vv1FA-P63Bi8vaWvwpbAsrIGpz-u170gXjgrjz9WKdBAgILskFAAlyhSy6Szu_Ktjx1hJr_27ylBIvK6Xq_W-kb2IOezNBy4MvySxqDNkz89Fy6VvAsv5e2JaJcmboDBU9SrVWzdaXysBL_9_EK75oYoHCKG5P_zr3nuPz0qhPIxWvgxDmo95d3Xsf7x1fcRwqpPUPqI7eWjPoeRqDqCkli7NN0nyHungPzyg70wBDtTBAsX5hcpgUsAwKN0jQ31SqSTIXl47xvXlZFlY71ydzPYX6iOX4PxdlnN8x09IiAWp8-jOWZIFCAgTeOvX0ageoAahAYAHkauehR6QBwSoB_LAsQKoB7jEsQKoB-G2sQKoB6XPsQKoB-edsQKoB-idsQKoB_nTsQKoB8nasQKoB6ngsQKoB6bUsQKoB6jSG6gHsdwbqAewm7ECqAeusbECqAf9srECqAfIz7ECqAfJz7ECqAfNx7ECqAfx0bECqAf81bECqAf71bECqAeM1rECqAeL1rECqAea4rECqAeb4rECqAf467ECqAed17ECqAed1LECqAeBxhuoB_yvsQKoB9XOG6gHvtmxAqgHq8UbqAec3BuoB7ehsQKoB9WpsQKoB-fasQKoB961sQKoB-qxsQKoB763sQKoB5m1sQKoB4XBsQKoB-ulsQKoB8qpsQKSCAttUFAyY1ItaXBxa6gIAdIILgiAQRABGF4yAoICOg-AQoDAgICAgICAAqqAgBBI2aDSNVAUWNDP9MScmJcDYAGaCShodHRwczovL2F1dG9tYXRlLnN0b2Nrd2l6LmluL0ctYWxnby1mcmVlsQnEVv23EN0wUsgJF8gJjwHICcIBmAsBugs6CAMQBRgEIAcoATAcQAFIAFh9YABoAHABiAEAmAEBogEICgCoAgHYAgKoAQHYAQGAAgGIAga6AwJzadALEqIMCCoGCgTw37EC0gwCEAHaDCYKCxDA7KSx99aPl9gBEgIBAxoNGKnz6M5ZIJCAiez4BUABSgIQH5oNARKqDQJJTsgNAdIN1gJodHRwczovL2F1dG9tYXRlLnN0b2Nrd2l6LmluL0ctYWxnby1mcmVlP3V0bV9zb3VyY2U9Z29vZ2xlJnV0bV9tZWRpdW09Y3BjJnV0bV9jYW1wYWlnbj0yNDA1NjA1MjEzNyZ1dG1fYWRfaWQ9ODE3OTIxMDk5ODcxJnV0bV9hZGdyb3VwPTIwNDIzNzU4NjQ0OCZ1dG1fYWRncm91cF9pZD0yMDQyMzc1ODY0NDgmdXRtX2NhbXBhaWduX2lkPTI0MDU2MDUyMTM3JnV0bV9kZXZpY2U9YyZ1dG1fbmV0d29yaz0mdXRtX2tleXdvcmQ9JnV0bV9tYXRjaHR5cGU9JnV0bV9jb250ZW50PTgxNzkyMTA5OTg3MSZhZF9uYW1lPTgxNzkyMTA5OTg3MSZnYWRfc291cmNlPTImZ2FkX2NhbXBhaWduaWQ9MjQwNTYwNTIxMze4E____________wGwFAPAFYGAgEDQFQHYFQGYFgHiFgIIAYAXAYoXGAgDGAEgASgBMAE4AUABSAFQAVgBYAJoAaAXAakXl0IdEjd0kUC6FwYoADAAOAHQGAHwGAHCGQIIAQ&ase=2&gclid=EAIaIQobChMIhuL0xJyYlwMVK_dVCR1l1zk0EAEYASAAEgJubfD_BwE&num=1&cid=CAASqwHkaKLbQ9Ukw_skWbn7e17lw6nCfv0sGz5YBl2hxZ9HbwP88ZuWw05dhzK_IGUansKZJbwcjVgWMlv4QqO9DxkDDarJQXkTwMilzDBteZLv1eDYGJ4dilZ8KS7QUgtp3bSeF5-427k2eqJowQw2rkBGYmmHKP9WFFbDCuZtou3xGhsTQVNv9clhoYt-nRwvOKQ450WuYMmc9mj_IdjvxIq_0b-gnu5rbnWXGRg&ad_cpn=%5BCPN%5D&sig=AOD64_3ol4Ref79XH7wUCtHecCAJCI1lYA&ctype=110&video_id=mPP2cR-ipqk&label=video_click_to_advertiser_site&ms=%5BCLICK_MS%5D&nb=21&nx=%5BNX%5D&ny=%5BNY%5D&dim=%5BDIM%5D
+                - button [aria-hidden] [ref=e183]
+              - generic [ref=e187]:
+                - generic [ref=e188]:
+                  - generic [ref=e189]:
+                    - link "Learn how traders use algorithms to trade smarter with StockWiz" [ref=e192]:
+                      - /url: https://www.googleadservices.com/pagead/aclk?sa=L&ai=CuQC06AG-aobOG6vu1_oP5a7noQON9tDFiQHY6raSrxawkB8QASAAYOWq54PEDoIBF2NhLXB1Yi02MjE5ODExNzQ3MDQ5MzcxoAGR882lQ6kCZeXcbiVkRj6oAwTIAwqqBKACT9B193jYzoR0wUZiZ-h8w3l52Kt_JWkhijMx91AmSIjuYNW3ZUr4XH2jg2v4lLlCeJy_GHMACmDBk6x1mfAt8H-vv1FA-P63Bi8vaWvwpbAsrIGpz-u170gXjgrjz9WKdBAgILskFAAlyhSy6Szu_Ktjx1hJr_27ylBIvK6Xq_W-kb2IOezNBy4MvySxqDNkz89Fy6VvAsv5e2JaJcmboDBU9SrVWzdaXysBL_9_EK75oYoHCKG5P_zr3nuPz0qhPIxWvgxDmo95d3Xsf7x1fcRwqpPUPqI7eWjPoeRqDqCkli7NN0nyHungPzyg70wBDtTBAsX5hcpgUsAwKN0jQ31SqSTIXl47xvXlZFlY71ydzPYX6iOX4PxdlnN8x09IiAWp8-jOWZIFCAgTeOvX0ageoAahAYAHkauehR6QBwSoB_LAsQKoB7jEsQKoB-G2sQKoB6XPsQKoB-edsQKoB-idsQKoB_nTsQKoB8nasQKoB6ngsQKoB6bUsQKoB6jSG6gHsdwbqAewm7ECqAeusbECqAf9srECqAfIz7ECqAfJz7ECqAfNx7ECqAfx0bECqAf81bECqAf71bECqAeM1rECqAeL1rECqAea4rECqAeb4rECqAf467ECqAed17ECqAed1LECqAeBxhuoB_yvsQKoB9XOG6gHvtmxAqgHq8UbqAec3BuoB7ehsQKoB9WpsQKoB-fasQKoB961sQKoB-qxsQKoB763sQKoB5m1sQKoB4XBsQKoB-ulsQKoB8qpsQKSCAttUFAyY1ItaXBxa6gIAdIILgiAQRABGF4yAoICOg-AQoDAgICAgICAAqqAgBBI2aDSNVAUWNDP9MScmJcDYAGaCShodHRwczovL2F1dG9tYXRlLnN0b2Nrd2l6LmluL0ctYWxnby1mcmVlsQnEVv23EN0wUsgJF8gJjwHICcIBmAsBugs6CAMQBRgEIAcoATAcQAFIAFh9YABoAHABiAEAmAEBogEICgCoAgHYAgKoAQHYAQGAAgGIAga6AwJzadALEqIMCCoGCgTw37EC0gwCEAHaDCYKCxDA7KSx99aPl9gBEgIBAxoNGKnz6M5ZIJCAiez4BUABSgIQH5oNARKqDQJJTsgNAdIN1gJodHRwczovL2F1dG9tYXRlLnN0b2Nrd2l6LmluL0ctYWxnby1mcmVlP3V0bV9zb3VyY2U9Z29vZ2xlJnV0bV9tZWRpdW09Y3BjJnV0bV9jYW1wYWlnbj0yNDA1NjA1MjEzNyZ1dG1fYWRfaWQ9ODE3OTIxMDk5ODcxJnV0bV9hZGdyb3VwPTIwNDIzNzU4NjQ0OCZ1dG1fYWRncm91cF9pZD0yMDQyMzc1ODY0NDgmdXRtX2NhbXBhaWduX2lkPTI0MDU2MDUyMTM3JnV0bV9kZXZpY2U9YyZ1dG1fbmV0d29yaz0mdXRtX2tleXdvcmQ9JnV0bV9tYXRjaHR5cGU9JnV0bV9jb250ZW50PTgxNzkyMTA5OTg3MSZhZF9uYW1lPTgxNzkyMTA5OTg3MSZnYWRfc291cmNlPTImZ2FkX2NhbXBhaWduaWQ9MjQwNTYwNTIxMze4E____________wGwFAPAFYGAgEDQFQHYFQGYFgHiFgIIAYAXAYoXGAgDGAEgASgBMAE4AUABSAFQAVgBYAJoAaAXAakXl0IdEjd0kUC6FwYoADAAOAHQGAHwGAHCGQIIAQ&ase=2&gclid=EAIaIQobChMIhuL0xJyYlwMVK_dVCR1l1zk0EAEYASAAEgJubfD_BwE&num=1&cid=CAASqwHkaKLbQ9Ukw_skWbn7e17lw6nCfv0sGz5YBl2hxZ9HbwP88ZuWw05dhzK_IGUansKZJbwcjVgWMlv4QqO9DxkDDarJQXkTwMilzDBteZLv1eDYGJ4dilZ8KS7QUgtp3bSeF5-427k2eqJowQw2rkBGYmmHKP9WFFbDCuZtou3xGhsTQVNv9clhoYt-nRwvOKQ450WuYMmc9mj_IdjvxIq_0b-gnu5rbnWXGRg&ad_cpn=%5BCPN%5D&sig=AOD64_3ol4Ref79XH7wUCtHecCAJCI1lYA&ctype=110&video_id=mPP2cR-ipqk&label=video_click_to_advertiser_site&ms=%5BCLICK_MS%5D&nb=0&nx=%5BNX%5D&ny=%5BNY%5D&dim=%5BDIM%5D
+                    - link "Learn automated trading strategies with StockWiz in a free live session" [ref=e195]:
+                      - /url: https://www.googleadservices.com/pagead/aclk?sa=L&ai=CuQC06AG-aobOG6vu1_oP5a7noQON9tDFiQHY6raSrxawkB8QASAAYOWq54PEDoIBF2NhLXB1Yi02MjE5ODExNzQ3MDQ5MzcxoAGR882lQ6kCZeXcbiVkRj6oAwTIAwqqBKACT9B193jYzoR0wUZiZ-h8w3l52Kt_JWkhijMx91AmSIjuYNW3ZUr4XH2jg2v4lLlCeJy_GHMACmDBk6x1mfAt8H-vv1FA-P63Bi8vaWvwpbAsrIGpz-u170gXjgrjz9WKdBAgILskFAAlyhSy6Szu_Ktjx1hJr_27ylBIvK6Xq_W-kb2IOezNBy4MvySxqDNkz89Fy6VvAsv5e2JaJcmboDBU9SrVWzdaXysBL_9_EK75oYoHCKG5P_zr3nuPz0qhPIxWvgxDmo95d3Xsf7x1fcRwqpPUPqI7eWjPoeRqDqCkli7NN0nyHungPzyg70wBDtTBAsX5hcpgUsAwKN0jQ31SqSTIXl47xvXlZFlY71ydzPYX6iOX4PxdlnN8x09IiAWp8-jOWZIFCAgTeOvX0ageoAahAYAHkauehR6QBwSoB_LAsQKoB7jEsQKoB-G2sQKoB6XPsQKoB-edsQKoB-idsQKoB_nTsQKoB8nasQKoB6ngsQKoB6bUsQKoB6jSG6gHsdwbqAewm7ECqAeusbECqAf9srECqAfIz7ECqAfJz7ECqAfNx7ECqAfx0bECqAf81bECqAf71bECqAeM1rECqAeL1rECqAea4rECqAeb4rECqAf467ECqAed17ECqAed1LECqAeBxhuoB_yvsQKoB9XOG6gHvtmxAqgHq8UbqAec3BuoB7ehsQKoB9WpsQKoB-fasQKoB961sQKoB-qxsQKoB763sQKoB5m1sQKoB4XBsQKoB-ulsQKoB8qpsQKSCAttUFAyY1ItaXBxa6gIAdIILgiAQRABGF4yAoICOg-AQoDAgICAgICAAqqAgBBI2aDSNVAUWNDP9MScmJcDYAGaCShodHRwczovL2F1dG9tYXRlLnN0b2Nrd2l6LmluL0ctYWxnby1mcmVlsQnEVv23EN0wUsgJF8gJjwHICcIBmAsBugs6CAMQBRgEIAcoATAcQAFIAFh9YABoAHABiAEAmAEBogEICgCoAgHYAgKoAQHYAQGAAgGIAga6AwJzadALEqIMCCoGCgTw37EC0gwCEAHaDCYKCxDA7KSx99aPl9gBEgIBAxoNGKnz6M5ZIJCAiez4BUABSgIQH5oNARKqDQJJTsgNAdIN1gJodHRwczovL2F1dG9tYXRlLnN0b2Nrd2l6LmluL0ctYWxnby1mcmVlP3V0bV9zb3VyY2U9Z29vZ2xlJnV0bV9tZWRpdW09Y3BjJnV0bV9jYW1wYWlnbj0yNDA1NjA1MjEzNyZ1dG1fYWRfaWQ9ODE3OTIxMDk5ODcxJnV0bV9hZGdyb3VwPTIwNDIzNzU4NjQ0OCZ1dG1fYWRncm91cF9pZD0yMDQyMzc1ODY0NDgmdXRtX2NhbXBhaWduX2lkPTI0MDU2MDUyMTM3JnV0bV9kZXZpY2U9YyZ1dG1fbmV0d29yaz0mdXRtX2tleXdvcmQ9JnV0bV9tYXRjaHR5cGU9JnV0bV9jb250ZW50PTgxNzkyMTA5OTg3MSZhZF9uYW1lPTgxNzkyMTA5OTg3MSZnYWRfc291cmNlPTImZ2FkX2NhbXBhaWduaWQ9MjQwNTYwNTIxMze4E____________wGwFAPAFYGAgEDQFQHYFQGYFgHiFgIIAYAXAYoXGAgDGAEgASgBMAE4AUABSAFQAVgBYAJoAaAXAakXl0IdEjd0kUC6FwYoADAAOAHQGAHwGAHCGQIIAQ&ase=2&gclid=EAIaIQobChMIhuL0xJyYlwMVK_dVCR1l1zk0EAEYASAAEgJubfD_BwE&num=1&cid=CAASqwHkaKLbQ9Ukw_skWbn7e17lw6nCfv0sGz5YBl2hxZ9HbwP88ZuWw05dhzK_IGUansKZJbwcjVgWMlv4QqO9DxkDDarJQXkTwMilzDBteZLv1eDYGJ4dilZ8KS7QUgtp3bSeF5-427k2eqJowQw2rkBGYmmHKP9WFFbDCuZtou3xGhsTQVNv9clhoYt-nRwvOKQ450WuYMmc9mj_IdjvxIq_0b-gnu5rbnWXGRg&ad_cpn=%5BCPN%5D&sig=AOD64_3ol4Ref79XH7wUCtHecCAJCI1lYA&ctype=110&video_id=mPP2cR-ipqk&label=video_click_to_advertiser_site&ms=%5BCLICK_MS%5D&nb=7&nx=%5BNX%5D&ny=%5BNY%5D&dim=%5BDIM%5D
+                    - generic [ref=e196]:
+                      - button "Stockwiz" [ref=e200]
+                      - generic [ref=e204]:
+                        - generic [ref=e205]: Sponsored
+                        - text: ·
+                      - generic [ref=e206]: Stockwiz
+                  - button "My Ad Center" [ref=e210]
+                - generic [ref=e216]:
+                  - link "Watch" [ref=e219]:
+                    - /url: /watch?v=mPP2cR-ipqk
+                  - link "Learn more" [ref=e225]:
+                    - /url: https://www.googleadservices.com/pagead/aclk?sa=L&ai=CuQC06AG-aobOG6vu1_oP5a7noQON9tDFiQHY6raSrxawkB8QASAAYOWq54PEDoIBF2NhLXB1Yi02MjE5ODExNzQ3MDQ5MzcxoAGR882lQ6kCZeXcbiVkRj6oAwTIAwqqBKACT9B193jYzoR0wUZiZ-h8w3l52Kt_JWkhijMx91AmSIjuYNW3ZUr4XH2jg2v4lLlCeJy_GHMACmDBk6x1mfAt8H-vv1FA-P63Bi8vaWvwpbAsrIGpz-u170gXjgrjz9WKdBAgILskFAAlyhSy6Szu_Ktjx1hJr_27ylBIvK6Xq_W-kb2IOezNBy4MvySxqDNkz89Fy6VvAsv5e2JaJcmboDBU9SrVWzdaXysBL_9_EK75oYoHCKG5P_zr3nuPz0qhPIxWvgxDmo95d3Xsf7x1fcRwqpPUPqI7eWjPoeRqDqCkli7NN0nyHungPzyg70wBDtTBAsX5hcpgUsAwKN0jQ31SqSTIXl47xvXlZFlY71ydzPYX6iOX4PxdlnN8x09IiAWp8-jOWZIFCAgTeOvX0ageoAahAYAHkauehR6QBwSoB_LAsQKoB7jEsQKoB-G2sQKoB6XPsQKoB-edsQKoB-idsQKoB_nTsQKoB8nasQKoB6ngsQKoB6bUsQKoB6jSG6gHsdwbqAewm7ECqAeusbECqAf9srECqAfIz7ECqAfJz7ECqAfNx7ECqAfx0bECqAf81bECqAf71bECqAeM1rECqAeL1rECqAea4rECqAeb4rECqAf467ECqAed17ECqAed1LECqAeBxhuoB_yvsQKoB9XOG6gHvtmxAqgHq8UbqAec3BuoB7ehsQKoB9WpsQKoB-fasQKoB961sQKoB-qxsQKoB763sQKoB5m1sQKoB4XBsQKoB-ulsQKoB8qpsQKSCAttUFAyY1ItaXBxa6gIAdIILgiAQRABGF4yAoICOg-AQoDAgICAgICAAqqAgBBI2aDSNVAUWNDP9MScmJcDYAGaCShodHRwczovL2F1dG9tYXRlLnN0b2Nrd2l6LmluL0ctYWxnby1mcmVlsQnEVv23EN0wUsgJF8gJjwHICcIBmAsBugs6CAMQBRgEIAcoATAcQAFIAFh9YABoAHABiAEAmAEBogEICgCoAgHYAgKoAQHYAQGAAgGIAga6AwJzadALEqIMCCoGCgTw37EC0gwCEAHaDCYKCxDA7KSx99aPl9gBEgIBAxoNGKnz6M5ZIJCAiez4BUABSgIQH5oNARKqDQJJTsgNAdIN1gJodHRwczovL2F1dG9tYXRlLnN0b2Nrd2l6LmluL0ctYWxnby1mcmVlP3V0bV9zb3VyY2U9Z29vZ2xlJnV0bV9tZWRpdW09Y3BjJnV0bV9jYW1wYWlnbj0yNDA1NjA1MjEzNyZ1dG1fYWRfaWQ9ODE3OTIxMDk5ODcxJnV0bV9hZGdyb3VwPTIwNDIzNzU4NjQ0OCZ1dG1fYWRncm91cF9pZD0yMDQyMzc1ODY0NDgmdXRtX2NhbXBhaWduX2lkPTI0MDU2MDUyMTM3JnV0bV9kZXZpY2U9YyZ1dG1fbmV0d29yaz0mdXRtX2tleXdvcmQ9JnV0bV9tYXRjaHR5cGU9JnV0bV9jb250ZW50PTgxNzkyMTA5OTg3MSZhZF9uYW1lPTgxNzkyMTA5OTg3MSZnYWRfc291cmNlPTImZ2FkX2NhbXBhaWduaWQ9MjQwNTYwNTIxMze4E____________wGwFAPAFYGAgEDQFQHYFQGYFgHiFgIIAYAXAYoXGAgDGAEgASgBMAE4AUABSAFQAVgBYAJoAaAXAakXl0IdEjd0kUC6FwYoADAAOAHQGAHwGAHCGQIIAQ&ase=2&gclid=EAIaIQobChMIhuL0xJyYlwMVK_dVCR1l1zk0EAEYASAAEgJubfD_BwE&num=1&cid=CAASqwHkaKLbQ9Ukw_skWbn7e17lw6nCfv0sGz5YBl2hxZ9HbwP88ZuWw05dhzK_IGUansKZJbwcjVgWMlv4QqO9DxkDDarJQXkTwMilzDBteZLv1eDYGJ4dilZ8KS7QUgtp3bSeF5-427k2eqJowQw2rkBGYmmHKP9WFFbDCuZtou3xGhsTQVNv9clhoYt-nRwvOKQ450WuYMmc9mj_IdjvxIq_0b-gnu5rbnWXGRg&ad_cpn=%5BCPN%5D&sig=AOD64_3ol4Ref79XH7wUCtHecCAJCI1lYA&ctype=110&video_id=mPP2cR-ipqk&label=video_click_to_advertiser_site&ms=%5BCLICK_MS%5D&nb=8&nx=%5BNX%5D&ny=%5BNY%5D&dim=%5BDIM%5D
+            - generic [ref=e230] [cursor=pointer]:
+              - link [aria-hidden] [ref=e231]:
+                - /url: /watch?v=ntLJmHOJ0ME&list=PLu0W_9lII9agS67Uits0UnJyrYiXhDS6q
+                - generic [ref=e233]: 113 lessons
+              - generic [ref=e246]:
+                - heading "Java Tutorials For Beginners In Hindi" [level=3] [ref=e247]:
+                  - link "Java Tutorials For Beginners In Hindi" [ref=e248]:
+                    - /url: /watch?v=ntLJmHOJ0ME&list=PLu0W_9lII9agS67Uits0UnJyrYiXhDS6q
+                - generic [ref=e250]:
+                  - group [ref=e251]:
+                    - link "CodeWithHarry" [ref=e254]:
+                      - /url: /@CodeWithHarry
+                    - generic "Verified" [ref=e255]
+                    - link "Course" [ref=e258]:
+                      - /url: /@CodeWithHarry
+                  - group [ref=e259]
+                  - group [ref=e260]:
+                    - link "Introduction to Java + Installing Java JDK and IntelliJ IDEA for Java · 19:00" [ref=e262]:
+                      - /url: /watch?v=ntLJmHOJ0ME&list=PLu0W_9lII9agS67Uits0UnJyrYiXhDS6q
+                  - group [ref=e263]:
+                    - 'link "Basic Structure of a Java Program: Understanding our First Java Hello World Program · 14:09" [ref=e265]':
+                      - /url: /watch?v=zIdg7hkqNE0&list=PLu0W_9lII9agS67Uits0UnJyrYiXhDS6q
+                  - group [ref=e266]:
+                    - link "View full course" [ref=e269]:
+                      - /url: /playlist?list=PLu0W_9lII9agS67Uits0UnJyrYiXhDS6q
+                  - group [ref=e270]:
+                    - generic [ref=e271]: In this complete Core + Advance Java tutorial for beginners in hindi, we will see complete java topics covered in hindi. This java complete tutorial will cover topics like Downloading Java, Installation of Java, java JVM, java inheritance, java inheritance & polymorphism and other complete java tutorial topics will be covered. This Java Tutorial for Beginners in Hindi can be used to learn Java in Hindi. Hope you like this Java Tutorial in Hindi. I am very excited to launch this Java full course for you!
+            - generic [ref=e272]:
+              - heading "Shorts" [level=2] [ref=e280]
+              - generic [ref=e282]:
+                - generic [ref=e285]:
+                  - link [aria-hidden] [ref=e286] [cursor=pointer]:
+                    - /url: /shorts/6x2KK_UD-kQ
+                  - generic [ref=e290] [cursor=pointer]:
+                    - generic [ref=e291]:
+                      - heading [level=3] [ref=e292]:
+                        - 'link "You Can Run this java Program And get Output. #shorts 🔥🔥 #learnjava ." [ref=e293]':
+                          - /url: /shorts/6x2KK_UD-kQ
+                      - generic [ref=e294]: 613K views
+                    - button "More actions" [ref=e296]
+                - generic [ref=e302]:
+                  - link [aria-hidden] [ref=e303] [cursor=pointer]:
+                    - /url: /shorts/jEp17Ik3YLI
+                  - generic [ref=e307] [cursor=pointer]:
+                    - generic [ref=e308]:
+                      - heading [level=3] [ref=e309]:
+                        - 'link "Java Basics in Just 90 Seconds, Everything You Need to Know! #coding #shorts" [ref=e310]':
+                          - /url: /shorts/jEp17Ik3YLI
+                      - generic [ref=e311]: 1.6M views
+                    - button "More actions" [ref=e313]
+                - generic [ref=e319]:
+                  - link [aria-hidden] [ref=e320] [cursor=pointer]:
+                    - /url: /shorts/IGygZ4dErQ0
+                  - generic [ref=e324] [cursor=pointer]:
+                    - generic [ref=e325]:
+                      - heading [level=3] [ref=e326]:
+                        - 'link "This mat helped me learn Java so fast 😭 #coding #java #programming #computer" [ref=e327]':
+                          - /url: /shorts/IGygZ4dErQ0
+                      - generic [ref=e328]: 2M views
+                    - button "More actions" [ref=e330]
+                - generic [ref=e336]:
+                  - link [aria-hidden] [ref=e337] [cursor=pointer]:
+                    - /url: /shorts/HO5o4sGEy3I
+                  - generic [ref=e341] [cursor=pointer]:
+                    - generic [ref=e342]:
+                      - heading [level=3] [ref=e343]:
+                        - 'link "how to make calculator #java" [ref=e344]':
+                          - /url: /shorts/HO5o4sGEy3I
+                      - generic [ref=e345]: 491K views
+                    - button "More actions" [ref=e347]
+                - generic [ref=e353]:
+                  - link [aria-hidden] [ref=e354] [cursor=pointer]:
+                    - /url: /shorts/yn8WRs5ZpdY
+                  - generic [ref=e358] [cursor=pointer]:
+                    - generic [ref=e359]:
+                      - heading [level=3] [ref=e360]:
+                        - link "[2 Loops] Pattern In Java | House Pattern In Java" [ref=e361]:
+                          - /url: /shorts/yn8WRs5ZpdY
+                      - generic [ref=e362]: 165K views
+                    - button "More actions" [ref=e364]
+            - generic [ref=e369] [cursor=pointer]:
+              - link [aria-hidden] [ref=e370]:
+                - /url: /watch?v=PymbRTMb4hY&list=PL78RhpUUKSweClRi_l05UgfE3053-zkRf&pp=0gcJCf8COCosWNin
+                - generic [ref=e372]: 4 lessons
+              - generic [ref=e385]:
+                - heading "Java Complete Basics to Advanced with 100+ Programming Challenges" [level=3] [ref=e386]:
+                  - link "Java Complete Basics to Advanced with 100+ Programming Challenges" [ref=e387]:
+                    - /url: /watch?v=PymbRTMb4hY&list=PL78RhpUUKSweClRi_l05UgfE3053-zkRf&pp=0gcJCf8COCosWNin
+                - generic [ref=e389]:
+                  - group [ref=e390]:
+                    - link "Complete Coding by Prashant Sir" [ref=e393]:
+                      - /url: /@CompleteCodingByPrashantSir
+                    - generic "Verified" [ref=e394]
+                    - link "Course" [ref=e397]:
+                      - /url: /@CompleteCodingByPrashantSir
+                  - group [ref=e398]
+                  - group [ref=e399]:
+                    - link "🚀🔥 JAVA Complete Course Part-1 (2024) | 100+ Programming Challenges · 11:59:35" [ref=e401]:
+                      - /url: /watch?v=PymbRTMb4hY&list=PL78RhpUUKSweClRi_l05UgfE3053-zkRf&pp=0gcJCQEF0aJEHMZM
+                  - group [ref=e402]:
+                    - link "🚀🔥 JAVA Complete Course Part-2 (2024) | 100+ Programming Challenges · 11:59:58" [ref=e404]:
+                      - /url: /watch?v=nNLqygSI-rE&list=PL78RhpUUKSweClRi_l05UgfE3053-zkRf
+                  - group [ref=e405]:
+                    - link "View full course" [ref=e408]:
+                      - /url: /playlist?list=PL78RhpUUKSweClRi_l05UgfE3053-zkRf
+                  - group [ref=e409]:
+                    - generic [ref=e410]: Unlock the world of Java programming with this comprehensive course that takes you from beginner to advanced levels. With over 100 programming challenges, you'll not only learn the concepts but also apply them to real-world scenarios, enhancing your problem-solving skills and coding proficiency.
+            - generic [ref=e412] [cursor=pointer]:
+              - link [aria-hidden] [ref=e413]:
+                - /url: /watch?v=yRpLlJmRo2w&list=PLfqMhTWNBTe3LtFWcvwpqTkUSlB32kJop
+                - generic [ref=e415]: 39 lessons
+              - generic [ref=e428]:
+                - 'heading "Java & DSA in 30 days : Course for Placement" [level=3] [ref=e429]':
+                  - 'link "Java & DSA in 30 days : Course for Placement" [ref=e430]':
+                    - /url: /watch?v=yRpLlJmRo2w&list=PLfqMhTWNBTe3LtFWcvwpqTkUSlB32kJop
+                - generic [ref=e432]:
+                  - group [ref=e433]:
+                    - link "Apna College" [ref=e436]:
+                      - /url: /@ApnaCollegeOfficial
+                    - generic "Verified" [ref=e437]
+                    - link "Course" [ref=e440]:
+                      - /url: /@ApnaCollegeOfficial
+                  - group [ref=e441]
+                  - group [ref=e442]:
+                    - link "Introduction to Java Language | Lecture 1 | Complete Placement Course · 18:46" [ref=e444]:
+                      - /url: /watch?v=yRpLlJmRo2w&list=PLfqMhTWNBTe3LtFWcvwpqTkUSlB32kJop
+                  - group [ref=e445]:
+                    - link "Variables in Java | Input Output | Complete Placement Course | Lecture 2 · 42:36" [ref=e447]:
+                      - /url: /watch?v=LusTv0RlnSU&list=PLfqMhTWNBTe3LtFWcvwpqTkUSlB32kJop
+                  - group [ref=e448]:
+                    - link "View full course" [ref=e451]:
+                      - /url: /playlist?list=PLfqMhTWNBTe3LtFWcvwpqTkUSlB32kJop
+                  - group [ref=e452]:
+                    - generic [ref=e453]: "Topics Covered : Java Language required for DSA. Data Structures and Algorithms covered till Graphs. This series will give help you start learning from basics and get you ready for Java + DSA in 30 days for Placement & Internships."
+            - generic [ref=e455] [cursor=pointer]:
+              - link [aria-hidden] [ref=e456]:
+                - /url: /watch?v=WYpQ1VkXag0&list=PLqleLpAMfxGAdqZeY_4uVQOPCnAjhH-eT
+                - generic [ref=e458]: 224 videos
+              - generic [ref=e471]:
+                - heading "Java Programming | 2026" [level=3] [ref=e472]:
+                  - link "Java Programming | 2026" [ref=e473]:
+                    - /url: /watch?v=WYpQ1VkXag0&list=PLqleLpAMfxGAdqZeY_4uVQOPCnAjhH-eT
+                - generic [ref=e475]:
+                  - group [ref=e476]:
+                    - link "Learn Coding" [ref=e479]:
+                      - /url: /@LearnCodingOfficial
+                    - generic "Verified" [ref=e480]
+                    - link "Playlist" [ref=e483]:
+                      - /url: /@LearnCodingOfficial
+                  - group [ref=e484]:
+                    - generic [ref=e485]: Updated yesterday
+                  - group [ref=e486]
+                  - group [ref=e487]:
+                    - link "Introduction to Java (Hindi) | What is Java? Explain with Syntax and Example · 11:41" [ref=e489]:
+                      - /url: /watch?v=WYpQ1VkXag0&list=PLqleLpAMfxGAdqZeY_4uVQOPCnAjhH-eT
+                  - group [ref=e490]:
+                    - 'link "SDE Roadmap: Software Developer Roadmap for 2026 | Learn Coding · 7:53" [ref=e492]':
+                      - /url: /watch?v=AwOCJzcq-vw&list=PLqleLpAMfxGAdqZeY_4uVQOPCnAjhH-eT
+                  - group [ref=e493]:
+                    - link "View full playlist" [ref=e496]:
+                      - /url: /playlist?list=PLqleLpAMfxGAdqZeY_4uVQOPCnAjhH-eT
+                  - group [ref=e497]:
+                    - generic [ref=e498]: Like | Share | SUBSCRIBE
+            - generic [ref=e499]:
+              - heading "Shorts" [level=2] [ref=e507]
+              - generic [ref=e508]:
+                - generic [ref=e509]:
+                  - generic [ref=e512]:
+                    - link [aria-hidden] [ref=e513] [cursor=pointer]:
+                      - /url: /shorts/qcNxWtOXhwI
+                    - generic [ref=e517] [cursor=pointer]:
+                      - generic [ref=e518]:
+                        - heading [level=3] [ref=e519]:
+                          - link "Basic Java - Class and Objects" [ref=e520]:
+                            - /url: /shorts/qcNxWtOXhwI
+                        - generic [ref=e521]: 184K views
+                      - button "More actions" [ref=e523]
+                  - generic [ref=e529]:
+                    - link [aria-hidden] [ref=e530] [cursor=pointer]:
+                      - /url: /shorts/Dd_832z-kGg
+                    - generic [ref=e534] [cursor=pointer]:
+                      - generic [ref=e535]:
+                        - heading [level=3] [ref=e536]:
+                          - 'link "Java roadmap 2025: Beginner to Mastery" [ref=e537]':
+                            - /url: /shorts/Dd_832z-kGg
+                        - generic [ref=e538]: 215K views
+                      - button "More actions" [ref=e540]
+                  - generic [ref=e546]:
+                    - link [aria-hidden] [ref=e547] [cursor=pointer]:
+                      - /url: /shorts/DKINa6DHeY0
+                    - generic [ref=e551] [cursor=pointer]:
+                      - generic [ref=e552]:
+                        - heading [level=3] [ref=e553]:
+                          - 'link "Java Vs Python #developer #python #java #developer #fyp" [ref=e554]':
+                            - /url: /shorts/DKINa6DHeY0
+                        - generic [ref=e555]: 1M views
+                      - button "More actions" [ref=e557]
+                  - generic [ref=e563]:
+                    - link [aria-hidden] [ref=e564] [cursor=pointer]:
+                      - /url: /shorts/RhQv5wj5gGY
+                    - generic [ref=e568] [cursor=pointer]:
+                      - generic [ref=e569]:
+                        - heading [level=3] [ref=e570]:
+                          - 'link "#360 Java Coding Questions | MCQ Type for Practice & Interviews #shorts #java #coding" [ref=e571]':
+                            - /url: /shorts/RhQv5wj5gGY
+                        - generic [ref=e572]: 284K views
+                      - button "More actions" [ref=e574]
+                  - generic [ref=e580]:
+                    - link [aria-hidden] [ref=e581] [cursor=pointer]:
+                      - /url: /shorts/vqTZV7NEd-g
+                    - generic [ref=e585] [cursor=pointer]:
+                      - generic [ref=e586]:
+                        - heading [level=3] [ref=e587]:
+                          - link "I made my own Calculator App in Java (Swing GUI)" [ref=e588]:
+                            - /url: /shorts/vqTZV7NEd-g
+                        - generic [ref=e589]: 376K views
+                      - button "More actions" [ref=e591]
+                - generic [ref=e595]:
+                  - generic [ref=e598]:
+                    - link [aria-hidden] [ref=e599] [cursor=pointer]:
+                      - /url: /shorts/OGkHyvpuhCk
+                    - generic [ref=e603] [cursor=pointer]:
+                      - generic [ref=e604]:
+                        - heading [level=3] [ref=e605]:
+                          - 'link "How to write java program in Notepad || java coding #shorts #java #javacoding #programming#notepad" [ref=e606]':
+                            - /url: /shorts/OGkHyvpuhCk
+                        - generic [ref=e607]: 209K views
+                      - button "More actions" [ref=e609]
+                  - generic [ref=e615]:
+                    - link [aria-hidden] [ref=e616] [cursor=pointer]:
+                      - /url: /shorts/EykhHH3PcG8
+                    - generic [ref=e620] [cursor=pointer]:
+                      - generic [ref=e621]:
+                        - heading [level=3] [ref=e622]:
+                          - link "Java Programming using Jvdroid👍👍" [ref=e623]:
+                            - /url: /shorts/EykhHH3PcG8
+                        - generic [ref=e624]: 708K views
+                      - button "More actions" [ref=e626]
+                  - generic [ref=e632]:
+                    - link [aria-hidden] [ref=e633] [cursor=pointer]:
+                      - /url: /shorts/vriy-yAJfTQ
+                    - generic [ref=e637] [cursor=pointer]:
+                      - generic [ref=e638]:
+                        - heading [level=3] [ref=e639]:
+                          - link "Top 3 Best Java Playlists to Learn Java in 2025 | Beginners to Advanced 🤷‍♂️" [ref=e640]:
+                            - /url: /shorts/vriy-yAJfTQ
+                        - generic [ref=e641]: 223K views
+                      - button "More actions" [ref=e643]
+                  - generic [ref=e649]:
+                    - link [aria-hidden] [ref=e650] [cursor=pointer]:
+                      - /url: /shorts/0GteJUOsRIE
+                    - generic [ref=e654] [cursor=pointer]:
+                      - generic [ref=e655]:
+                        - heading [level=3] [ref=e656]:
+                          - link "Java Vs Python | Power of Python | Which is Better For Future Java or Python | Future of Python." [ref=e657]:
+                            - /url: /shorts/0GteJUOsRIE
+                        - generic [ref=e658]: 1.8M views
+                      - button "More actions" [ref=e660]
+                  - generic [ref=e666]:
+                    - link [aria-hidden] [ref=e667] [cursor=pointer]:
+                      - /url: /shorts/T4syJe-tGpo
+                    - generic [ref=e671] [cursor=pointer]:
+                      - generic [ref=e672]:
+                        - heading [level=3] [ref=e673]:
+                          - 'link "Java uses and syntax with example #coding #javalanguage #programming #tech #classes" [ref=e674]':
+                            - /url: /shorts/T4syJe-tGpo
+                        - generic [ref=e675]: 241K views
+                      - button "More actions" [ref=e677]
+              - button "Show more" [ref=e684] [cursor=pointer]
+            - generic [ref=e689] [cursor=pointer]:
+              - link [aria-hidden] [ref=e690]:
+                - /url: /watch?v=LBqE4YOvhyc&list=PLQEaRBV9gAFsR15tNo2QLF9d2qc-c018p
+                - generic [ref=e692]: 57 lessons
+              - generic [ref=e705]:
+                - heading "Java Full Course 2026" [level=3] [ref=e706]:
+                  - link "Java Full Course 2026" [ref=e707]:
+                    - /url: /watch?v=LBqE4YOvhyc&list=PLQEaRBV9gAFsR15tNo2QLF9d2qc-c018p
+                - generic [ref=e709]:
+                  - group [ref=e710]:
+                    - link "Coder Army" [ref=e713]:
+                      - /url: /@CoderArmy9
+                    - generic "Verified" [ref=e714]
+                    - link "Course" [ref=e717]:
+                      - /url: /@CoderArmy9
+                  - group [ref=e718]
+                  - group [ref=e719]:
+                    - link "JAVA Full Course | Introduction to JAVA | Java Full Course for Beginners in 2026 · 59:07" [ref=e721]:
+                      - /url: /watch?v=LBqE4YOvhyc&list=PLQEaRBV9gAFsR15tNo2QLF9d2qc-c018p&pp=0gcJCQEF0aJEHMZM
+                  - group [ref=e722]:
+                    - 'link "Write Your First JAVA Program | JVM, JDK & JRE Explained | JSE vs JEE vs JME | JAVA Full Course #2 · 41:34" [ref=e724]':
+                      - /url: /watch?v=pdS8_smlsXA&list=PLQEaRBV9gAFsR15tNo2QLF9d2qc-c018p
+                  - group [ref=e725]:
+                    - link "View full course" [ref=e728]:
+                      - /url: /playlist?list=PLQEaRBV9gAFsR15tNo2QLF9d2qc-c018p
+                  - group [ref=e729]:
+                    - generic [ref=e730]: "Welcome to the Complete Java Full Course 2026. This structured Java tutorial series is designed to take you from absolute beginner to advanced level in Java programming. In this playlist, you will learn: • Java Basics • Variables & Data Types • OOP Concepts (Encapsulation, Inheritance, Polymorphism, Abstraction) • Constructors & Methods • Static & Non-static concepts • Memory Management in Java • Collections Framework • Exception Handling • Multithreading • Java for Placements & Interviews This course is perfect for: College students Beginners starting programming Placement preparation Software engineering interviews DSA preparation Anyone who wants strong Java fundamentals Each lecture is structured step-by-step with deep conceptual clarity and practical examples. Start from Lecture 1 and follow the playlist in sequence for best results. Subscribe and stay consistent. Java mastery requires structured learning. Github Link for Notes & Code : https://github.com/adityatandon15/Java-Full-Course java full course 2026, java tutorial for beginners, learn java step by step, complete java course, java programming course, java for placements, java interview preparation, java beginner to advanced, java dsa preparation, java oops concepts, java fundamentals, java basics to advanced"
+            - generic [ref=e732] [cursor=pointer]:
+              - link [aria-hidden] [ref=e733]:
+                - /url: /watch?v=23HFxAPyJ9U&list=PLZPZq0r_RZOOj_NOZYq_R2PECIMglLemc
+                - generic [ref=e735]: 71 videos
+              - generic [ref=e748]:
+                - heading "Java tutorial for beginners ☕" [level=3] [ref=e749]:
+                  - link "Java tutorial for beginners ☕" [ref=e750]:
+                    - /url: /watch?v=23HFxAPyJ9U&list=PLZPZq0r_RZOOj_NOZYq_R2PECIMglLemc
+                - generic [ref=e752]:
+                  - group [ref=e753]:
+                    - link "Bro Code" [ref=e756]:
+                      - /url: /@BroCodez
+                    - generic "Verified" [ref=e757]
+                    - link "Playlist" [ref=e760]:
+                      - /url: /@BroCodez
+                  - group [ref=e761]
+                  - group [ref=e762]:
+                    - link "Start coding with JAVA in 10 minutes! ☕ · 10:59" [ref=e764]:
+                      - /url: /watch?v=23HFxAPyJ9U&list=PLZPZq0r_RZOOj_NOZYq_R2PECIMglLemc
+                  - group [ref=e765]:
+                    - link "Java variables are easy! ❎ · 20:32" [ref=e767]:
+                      - /url: /watch?v=TGVLmr194DI&list=PLZPZq0r_RZOOj_NOZYq_R2PECIMglLemc
+                  - group [ref=e768]:
+                    - link "View full playlist" [ref=e771]:
+                      - /url: /playlist?list=PLZPZq0r_RZOOj_NOZYq_R2PECIMglLemc
+                  - group [ref=e772]:
+                    - generic [ref=e773]: Java tutorial for beginners
+            - generic [ref=e775] [cursor=pointer]:
+              - link [aria-hidden] [ref=e776]:
+                - /url: /watch?v=IT2durkDCXM&list=PLvepBxfiuao2qCm6QgUay9LUAehVbGlOb
+                - generic [ref=e778]: 54 videos
+              - generic [ref=e791]:
+                - heading "Java Programming Tutorial Series for Beginners in Tamil" [level=3] [ref=e792]:
+                  - link "Java Programming Tutorial Series for Beginners in Tamil" [ref=e793]:
+                    - /url: /watch?v=IT2durkDCXM&list=PLvepBxfiuao2qCm6QgUay9LUAehVbGlOb
+                - generic [ref=e795]:
+                  - group [ref=e796]:
+                    - link "Error Makes Clever" [ref=e799]:
+                      - /url: /@ErrorMakesClever
+                    - link "Playlist" [ref=e802]:
+                      - /url: /@ErrorMakesClever
+                  - group [ref=e803]
+                  - group [ref=e804]:
+                    - link "#01 Introduction to Java Programming Tutorial Series | For Beginners in Tamil | Error Makes Clever · 2:38" [ref=e806]:
+                      - /url: /watch?v=IT2durkDCXM&list=PLvepBxfiuao2qCm6QgUay9LUAehVbGlOb
+                  - group [ref=e807]:
+                    - link "#02 Setting Up Java Environment | Java Tutorial Series | For Beginners in Tamil | Error Makes Clever · 6:25" [ref=e809]:
+                      - /url: /watch?v=XTkqv5y7Rjg&list=PLvepBxfiuao2qCm6QgUay9LUAehVbGlOb&pp=0gcJCQEF0aJEHMZM
+                  - group [ref=e810]:
+                    - link "View full playlist" [ref=e813]:
+                      - /url: /playlist?list=PLvepBxfiuao2qCm6QgUay9LUAehVbGlOb
+                  - group [ref=e814]:
+                    - generic [ref=e815]: Hello everyone! Welcome to our Java Programming Tutorial Series in Tamil, tailored specifically for beginners. Whether you're a student stepping into the world of programming, a professional seeking to brush up on your Java skills, or simply curious about coding, our series promises to guide you from the basics to more complex concepts in a structured and easy-to-understand manner. We're thrilled to share that we'll be uploading new tutorials six times a week, ensuring a steady stream of learning material for you to engage with. Each video aims to build on the last, making learning Java an enjoyable and rewarding journey. We highly value your input and engagement! Please don't hesitate to drop your valuable comments below, share your thoughts on the topics covered, and let us know if there's a specific Java concept you'd like us to explore. Your feedback is crucial in helping us tailor our content to your learning needs. Stay connected with us through our social media channels (if applicable), and for more resources, be sure to check out our website (if applicable). Don't forget to subscribe and hit the bell icon to never miss an update from us. Thank you for watching, and we look forward to embarking on this Java programming adventure together. Happy coding!
+            - generic [ref=e817] [cursor=pointer]:
+              - link [aria-hidden] [ref=e818]:
+                - /url: /watch?v=nO_nbKOXRfs&list=PLhyraTKIsw59nQJKvZTKmNK2aMxHwvLOa
+                - generic [ref=e820]: 39 lessons
+              - generic [ref=e833]:
+                - heading "Java Programs" [level=3] [ref=e834]:
+                  - link "Java Programs" [ref=e835]:
+                    - /url: /watch?v=nO_nbKOXRfs&list=PLhyraTKIsw59nQJKvZTKmNK2aMxHwvLOa
+                - generic [ref=e837]:
+                  - group [ref=e838]:
+                    - link "Programming For Beginners" [ref=e841]:
+                      - /url: /@programmingforbeginners7392
+                    - link "Course" [ref=e844]:
+                      - /url: /@programmingforbeginners7392
+                  - group [ref=e845]
+                  - group [ref=e846]:
+                    - 'link "Java Program #1 - Find Sum of Numbers Entered by User · 9:22" [ref=e848]':
+                      - /url: /watch?v=nO_nbKOXRfs&list=PLhyraTKIsw59nQJKvZTKmNK2aMxHwvLOa
+                  - group [ref=e849]:
+                    - 'link "Java Program #2 - Find Average of Numbers Entered by User · 7:35" [ref=e851]':
+                      - /url: /watch?v=Wr7v_DBIPSU&list=PLhyraTKIsw59nQJKvZTKmNK2aMxHwvLOa
+                  - group [ref=e852]:
+                    - link "View full course" [ref=e855]:
+                      - /url: /playlist?list=PLhyraTKIsw59nQJKvZTKmNK2aMxHwvLOa
+                  - group [ref=e856]:
+                    - generic [ref=e857]: All Java Programs to improve your Java Programming skills with the help of this Java Tutorial Playlist
+            - generic [ref=e859] [cursor=pointer]:
+              - link [aria-hidden] [ref=e860]:
+                - /url: /watch?v=3vbizK6KzaU&list=PLUDwpEzHYYLtgkXK6YaZ4I2XcsjMqIaEa
+                - generic [ref=e862]: 30 lessons
+              - generic [ref=e875]:
+                - heading "Frequently Asked Java Programs" [level=3] [ref=e876]:
+                  - link "Frequently Asked Java Programs" [ref=e877]:
+                    - /url: /watch?v=3vbizK6KzaU&list=PLUDwpEzHYYLtgkXK6YaZ4I2XcsjMqIaEa
+                - generic [ref=e879]:
+                  - group [ref=e880]:
+                    - link "SDET- QA" [ref=e883]:
+                      - /url: /@sdetpavan
+                    - generic "Verified" [ref=e884]
+                    - link "Course" [ref=e887]:
+                      - /url: /@sdetpavan
+                  - group [ref=e888]
+                  - group [ref=e889]:
+                    - 'link "Frequently Asked Java Program 01: Swap Two Numbers | 5 Ways of swapping Numbers · 17:13" [ref=e891]':
+                      - /url: /watch?v=3vbizK6KzaU&list=PLUDwpEzHYYLtgkXK6YaZ4I2XcsjMqIaEa
+                  - group [ref=e892]:
+                    - 'link "Frequently Asked Java Program 02: Reverse A Number | 3 Ways of Reverse a Number · 18:28" [ref=e894]':
+                      - /url: /watch?v=m0lMpNIG6vU&list=PLUDwpEzHYYLtgkXK6YaZ4I2XcsjMqIaEa
+                  - group [ref=e895]:
+                    - link "View full course" [ref=e898]:
+                      - /url: /playlist?list=PLUDwpEzHYYLtgkXK6YaZ4I2XcsjMqIaEa
+            - generic [ref=e900]:
+              - link [aria-hidden] [ref=e902] [cursor=pointer]:
+                - /url: /watch?v=UmnCZ7-9yDY&t=60s&pp=ygUMamF2YSBwcm9ncmFt0gcJCS4MAYcqIYzv
+              - generic [ref=e904] [cursor=pointer]:
+                - generic [ref=e905]:
+                  - generic [ref=e906]:
+                    - heading [level=3] [ref=e907]:
+                      - link "Java Tutorial for Beginners | Learn Java in 2 Hours 2 hours, 4 minutes" [ref=e908]:
+                        - /url: /watch?v=UmnCZ7-9yDY&t=60s&pp=ygUMamF2YSBwcm9ncmFt0gcJCS4MAYcqIYzv
+                        - text: Java Tutorial for Beginners | Learn Java in 2 Hours
+                    - button "Action menu" [ref=e912]
+                  - generic [ref=e918]:
+                    - generic [ref=e919]: 10M
+                    - generic [ref=e920]: •5y ago
+                - generic [ref=e921]:
+                  - link "Go to channel Apna College" [ref=e922]:
+                    - /url: /@ApnaCollegeOfficial
+                  - generic [ref=e923]:
+                    - link "Apna College" [ref=e927]:
+                      - /url: /@ApnaCollegeOfficial
+                    - img "Verified" [ref=e932]
+                - generic [ref=e934]:
+                  - text: Are you worried about placements/internships? Want to prepare for companies like Microsoft, Amazon & Google? Join ALPHA.
+                  - tooltip "tooltip"
+                - generic [ref=e937]:
+                  - generic [ref=e938]:
+                    - generic [ref=e941]: Matching chapter
+                    - button "1:00 Install Java" [ref=e943]
+                  - button "More" [ref=e948]
+            - generic [ref=e953]:
+              - link [aria-hidden] [ref=e955] [cursor=pointer]:
+                - /url: /watch?v=VZg5r9i90z0&t=5s&pp=ygUMamF2YSBwcm9ncmFt
+              - generic [ref=e957] [cursor=pointer]:
+                - generic [ref=e958]:
+                  - generic [ref=e959]:
+                    - heading [level=3] [ref=e960]:
+                      - link "Java Full Course for Beginners (Hindi) | Learn Coding 8 hours, 58 minutes" [ref=e961]:
+                        - /url: /watch?v=VZg5r9i90z0&t=5s&pp=ygUMamF2YSBwcm9ncmFt
+                        - text: Java Full Course for Beginners (Hindi) | Learn Coding
+                    - button "Action menu" [ref=e965]
+                  - generic [ref=e971]:
+                    - generic [ref=e972]: 4.3M
+                    - generic [ref=e973]: •4y ago
+                - generic [ref=e974]:
+                  - link "Go to channel Learn Coding" [ref=e975]:
+                    - /url: /@LearnCodingOfficial
+                  - generic [ref=e976]:
+                    - link "Learn Coding" [ref=e980]:
+                      - /url: /@LearnCodingOfficial
+                    - img "Verified" [ref=e985]
+                - generic [ref=e987]:
+                  - generic [ref=e988]: ... Eclipse Installation -- 00:18:25 First Java Program -- 00:23:01 Compilation & Execution Process -- 00:30:59 What is Datatype?
+                  - tooltip "tooltip"
+            - generic [ref=e990]:
+              - link [aria-hidden] [ref=e992] [cursor=pointer]:
+                - /url: /watch?v=32DLasxoOiM&pp=ygUMamF2YSBwcm9ncmFt
+              - generic [ref=e994] [cursor=pointer]:
+                - generic [ref=e995]:
+                  - generic [ref=e996]:
+                    - heading [level=3] [ref=e997]:
+                      - link "Java Programming Full Tutorial in One Video (2024) | Java full course 18 hours" [ref=e998]:
+                        - /url: /watch?v=32DLasxoOiM&pp=ygUMamF2YSBwcm9ncmFt
+                        - text: Java Programming Full Tutorial in One Video (2024) | Java full course
+                    - button "Action menu" [ref=e1002]
+                  - generic [ref=e1008]:
+                    - generic [ref=e1009]: 2.3M
+                    - generic [ref=e1010]: •2y ago
+                - generic [ref=e1011]:
+                  - link "Go to channel CoDing SeeKho" [ref=e1012]:
+                    - /url: /@codingseekho
+                  - link "CoDing SeeKho" [ref=e1017]:
+                    - /url: /@codingseekho
+                - generic [ref=e1018]:
+                  - generic [ref=e1019]: How JVM Works in Java? 34:40 How to Download & Install Java 44:00 First Java Program | Notepad 1:03:10 What is Class?
+                  - tooltip "tooltip"
+            - generic [ref=e1021]:
+              - link [aria-hidden] [ref=e1023] [cursor=pointer]:
+                - /url: /watch?v=yRpLlJmRo2w&pp=ygUMamF2YSBwcm9ncmFt
+              - generic [ref=e1025] [cursor=pointer]:
+                - generic [ref=e1026]:
+                  - generic [ref=e1027]:
+                    - heading [level=3] [ref=e1028]:
+                      - link "Introduction to Java Language | Lecture 1 | Complete Placement Course 18 minutes" [ref=e1029]:
+                        - /url: /watch?v=yRpLlJmRo2w&pp=ygUMamF2YSBwcm9ncmFt
+                        - text: Introduction to Java Language | Lecture 1 | Complete Placement Course
+                    - button "Action menu" [ref=e1033]
+                  - generic [ref=e1039]:
+                    - generic [ref=e1040]: 20M
+                    - generic [ref=e1041]: •5y ago
+                - generic [ref=e1042]:
+                  - link "Go to channel Apna College" [ref=e1043]:
+                    - /url: /@ApnaCollegeOfficial
+                  - generic [ref=e1044]:
+                    - link "Apna College" [ref=e1048]:
+                      - /url: /@ApnaCollegeOfficial
+                    - img "Verified" [ref=e1053]
+                - generic [ref=e1055]:
+                  - text: Are you worried about placements/internships? Want to prepare for companies like Microsoft, Amazon & Google? Join ALPHA ...
+                  - tooltip "tooltip"
+                - generic [ref=e1058]:
+                  - generic [ref=e1059]:
+                    - generic [ref=e1060]: Summary
+                    - button "अपना कॉलेज के इस पहले लेक्चर में, कंप्यूटर को निर्देश देने के लिए बाइनरी सिस्टम को हाई-लेवल भाषा में बदलने की प्रक्रिया को समझाते हुए, जावा कोडिंग के बुनियादी सिद्धांतों और फ्लोचार्ट्स के उपयोग की व्याख्या की गई है। कोड एडिटर और जावा डेवलपमेंट किट (JDK) की स्थापना के साथ, पहला \"Hello World\" प्रोग्राम भी चलाया जाता है।" [ref=e1063]
+                    - text: ·
+                  - button "More" [ref=e1068]
+            - generic [ref=e1073]:
+              - link [aria-hidden] [ref=e1075] [cursor=pointer]:
+                - /url: /watch?v=zIdg7hkqNE0&pp=ygUMamF2YSBwcm9ncmFt
+              - generic [ref=e1077] [cursor=pointer]:
+                - generic [ref=e1078]:
+                  - generic [ref=e1079]:
+                    - heading [level=3] [ref=e1080]:
+                      - 'link "Basic Structure of a Java Program: Understanding our First Java Hello World Program 14 minutes, 9 seconds" [ref=e1081]':
+                        - /url: /watch?v=zIdg7hkqNE0&pp=ygUMamF2YSBwcm9ncmFt
+                        - text: "Basic Structure of a Java Program: Understanding our First Java Hello World Program"
+                    - button "Action menu" [ref=e1085]
+                  - generic [ref=e1091]:
+                    - generic [ref=e1092]: 4.5M
+                    - generic [ref=e1093]: •6y ago
+                - generic [ref=e1094]:
+                  - link "Go to channel CodeWithHarry" [ref=e1095]:
+                    - /url: /@CodeWithHarry
+                  - generic [ref=e1096]:
+                    - link "CodeWithHarry" [ref=e1100]:
+                      - /url: /@CodeWithHarry
+                    - img "Verified" [ref=e1105]
+                - generic [ref=e1107]:
+                  - generic [ref=e1108]: "Understanding Java hello world Program: This Java tutorial for beginners will teach you java programming from scratch."
+                  - tooltip "tooltip"
+                - img "Closed captions" [ref=e1113]:
+                  - generic [aria-hidden] [ref=e1114]: CC
+                - generic [ref=e1117]:
+                  - generic [ref=e1118]:
+                    - generic [ref=e1119]: Summary
+                    - button "CodeWithHarry इस ट्यूटोरियल में जावा प्रोग्राम के मुख्य घटकों जैसे पैकेज, फंक्शन और क्लासेस की विस्तार से व्याख्या करते हैं। एक सरल एनालॉजी के माध्यम से, वे कोड की संरचना को समझाते हुए नामकरण परंपराओं (पास्कल और कैमल केस) और कमेंट्स के महत्व पर चर्चा करते हैं, ताकि जावा प्रोग्रामिंग के मूलभूत सिद्धांतों को स्पष्ट किया जा सके।" [ref=e1122]
+                    - text: ·
+                  - button "More" [ref=e1127]
+            - generic [ref=e1132]:
+              - link [aria-hidden] [ref=e1134] [cursor=pointer]:
+                - /url: /watch?v=7-lK9EpBS_Y&pp=ygUMamF2YSBwcm9ncmFt
+              - generic [ref=e1136] [cursor=pointer]:
+                - generic [ref=e1137]:
+                  - generic [ref=e1138]:
+                    - heading [level=3] [ref=e1139]:
+                      - 'link "Master Java FAST: Ultimate One-Video Java Crash Course for 2026! 2 hours, 23 minutes" [ref=e1140]':
+                        - /url: /watch?v=7-lK9EpBS_Y&pp=ygUMamF2YSBwcm9ncmFt
+                        - text: "Master Java FAST: Ultimate One-Video Java Crash Course for 2026!"
+                    - button "Action menu" [ref=e1144]
+                  - generic [ref=e1150]:
+                    - generic [ref=e1151]: 618K
+                    - generic [ref=e1152]: •1y ago
+                - generic [ref=e1153]:
+                  - link "Go to channel Engineering Digest" [ref=e1154]:
+                    - /url: /@EngineeringDigest
+                  - generic [ref=e1155]:
+                    - link "Engineering Digest" [ref=e1159]:
+                      - /url: /@EngineeringDigest
+                    - img "Verified" [ref=e1164]
+                - generic [ref=e1166]:
+                  - generic [ref=e1167]: Master Java Programming from ABSOLUTE ZERO! In this complete crash course, you'll learn everything you need to become a ...
+                  - tooltip "tooltip"
+                - generic [ref=e1170]:
+                  - generic [ref=e1171]:
+                    - generic [ref=e1174]: Matching chapter
+                    - button "0:00 Java Basics & Setup" [ref=e1176]
+                  - button "More" [ref=e1181]
+  - generic [ref=e1210]:
+    - link:
+      - /url: https://www.googleadservices.com/pagead/aclk?sa=L&ai=CuQC06AG-aobOG6vu1_oP5a7noQON9tDFiQHY6raSrxawkB8QASAAYOWq54PEDoIBF2NhLXB1Yi02MjE5ODExNzQ3MDQ5MzcxoAGR882lQ6kCZeXcbiVkRj6oAwTIAwqqBKACT9B193jYzoR0wUZiZ-h8w3l52Kt_JWkhijMx91AmSIjuYNW3ZUr4XH2jg2v4lLlCeJy_GHMACmDBk6x1mfAt8H-vv1FA-P63Bi8vaWvwpbAsrIGpz-u170gXjgrjz9WKdBAgILskFAAlyhSy6Szu_Ktjx1hJr_27ylBIvK6Xq_W-kb2IOezNBy4MvySxqDNkz89Fy6VvAsv5e2JaJcmboDBU9SrVWzdaXysBL_9_EK75oYoHCKG5P_zr3nuPz0qhPIxWvgxDmo95d3Xsf7x1fcRwqpPUPqI7eWjPoeRqDqCkli7NN0nyHungPzyg70wBDtTBAsX5hcpgUsAwKN0jQ31SqSTIXl47xvXlZFlY71ydzPYX6iOX4PxdlnN8x09IiAWp8-jOWZIFCAgTeOvX0ageoAahAYAHkauehR6QBwSoB_LAsQKoB7jEsQKoB-G2sQKoB6XPsQKoB-edsQKoB-idsQKoB_nTsQKoB8nasQKoB6ngsQKoB6bUsQKoB6jSG6gHsdwbqAewm7ECqAeusbECqAf9srECqAfIz7ECqAfJz7ECqAfNx7ECqAfx0bECqAf81bECqAf71bECqAeM1rECqAeL1rECqAea4rECqAeb4rECqAf467ECqAed17ECqAed1LECqAeBxhuoB_yvsQKoB9XOG6gHvtmxAqgHq8UbqAec3BuoB7ehsQKoB9WpsQKoB-fasQKoB961sQKoB-qxsQKoB763sQKoB5m1sQKoB4XBsQKoB-ulsQKoB8qpsQKSCAttUFAyY1ItaXBxa6gIAdIILgiAQRABGF4yAoICOg-AQoDAgICAgICAAqqAgBBI2aDSNVAUWNDP9MScmJcDYAGaCShodHRwczovL2F1dG9tYXRlLnN0b2Nrd2l6LmluL0ctYWxnby1mcmVlsQnEVv23EN0wUsgJF8gJjwHICcIBmAsBugs6CAMQBRgEIAcoATAcQAFIAFh9YABoAHABiAEAmAEBogEICgCoAgHYAgKoAQHYAQGAAgGIAga6AwJzadALEqIMCCoGCgTw37EC0gwCEAHaDCYKCxDA7KSx99aPl9gBEgIBAxoNGKnz6M5ZIJCAiez4BUABSgIQH5oNARKqDQJJTsgNAdIN1gJodHRwczovL2F1dG9tYXRlLnN0b2Nrd2l6LmluL0ctYWxnby1mcmVlP3V0bV9zb3VyY2U9Z29vZ2xlJnV0bV9tZWRpdW09Y3BjJnV0bV9jYW1wYWlnbj0yNDA1NjA1MjEzNyZ1dG1fYWRfaWQ9ODE3OTIxMDk5ODcxJnV0bV9hZGdyb3VwPTIwNDIzNzU4NjQ0OCZ1dG1fYWRncm91cF9pZD0yMDQyMzc1ODY0NDgmdXRtX2NhbXBhaWduX2lkPTI0MDU2MDUyMTM3JnV0bV9kZXZpY2U9YyZ1dG1fbmV0d29yaz0mdXRtX2tleXdvcmQ9JnV0bV9tYXRjaHR5cGU9JnV0bV9jb250ZW50PTgxNzkyMTA5OTg3MSZhZF9uYW1lPTgxNzkyMTA5OTg3MSZnYWRfc291cmNlPTImZ2FkX2NhbXBhaWduaWQ9MjQwNTYwNTIxMze4E____________wGwFAPAFYGAgEDQFQHYFQGYFgHiFgIIAYAXAYoXGAgDGAEgASgBMAE4AUABSAFQAVgBYAJoAaAXAakXl0IdEjd0kUC6FwYoADAAOAHQGAHwGAHCGQIIAQ&ase=2&gclid=EAIaIQobChMIhuL0xJyYlwMVK_dVCR1l1zk0EAEYASAAEgJubfD_BwE&num=1&cid=CAASqwHkaKLbQ9Ukw_skWbn7e17lw6nCfv0sGz5YBl2hxZ9HbwP88ZuWw05dhzK_IGUansKZJbwcjVgWMlv4QqO9DxkDDarJQXkTwMilzDBteZLv1eDYGJ4dilZ8KS7QUgtp3bSeF5-427k2eqJowQw2rkBGYmmHKP9WFFbDCuZtou3xGhsTQVNv9clhoYt-nRwvOKQ450WuYMmc9mj_IdjvxIq_0b-gnu5rbnWXGRg&ad_cpn=%5BCPN%5D&sig=AOD64_3ol4Ref79XH7wUCtHecCAJCI1lYA&ctype=110&video_id=mPP2cR-ipqk&label=video_click_to_advertiser_site&ms=%5BCLICK_MS%5D&nb=21&nx=%5BNX%5D&ny=%5BNY%5D&dim=%5BDIM%5D
+      - generic [ref=e1211] [cursor=pointer]
