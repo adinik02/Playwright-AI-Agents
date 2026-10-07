@@ -1,4 +1,4 @@
-import { test } from '@playwright/test';
+import { expect, test } from '@playwright/test';
 import { InternalShipmentPage } from '../pages/internal-shipment.page.js';
 
 test.setTimeout(120_000);
@@ -18,6 +18,8 @@ test.describe('Normal Internal', () => {
     await shipmentPage.selectTwoAvailableSamples();
     await shipmentPage.completeTwoSampleContentDetails();
     const result = await shipmentPage.createShipment();
+    expect(result.successMessage).toMatch(/Shipment created successfully/i);
+    expect(result.shipmentId).toMatch(/^\d+$/);
     console.log(`${result.successMessage} | Shipment ID: ${result.shipmentId}`);
   });
 });
@@ -36,6 +38,8 @@ test.describe('Internal NCS', () => {
     await shipmentPage.completeInternalBasicDetails('Bangalore');
     await shipmentPage.completeNcsContentDetails();
     const result = await shipmentPage.createShipment();
+    expect(result.successMessage).toMatch(/Shipment created successfully/i);
+    expect(result.shipmentId).toMatch(/^\d+$/);
     console.log(`${result.successMessage} | Shipment ID: ${result.shipmentId}`);
   });
 });

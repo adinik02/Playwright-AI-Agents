@@ -1,4 +1,4 @@
-import { test } from '@playwright/test';
+import { expect, test } from '@playwright/test';
 import { SamplePage } from '../pages/sample.page.js';
 
 test.setTimeout(120_000);
@@ -16,6 +16,7 @@ test('creates a test sample and customer shipment', async ({ page }) => {
   const qrDialog = await samplePage.createTestSample();
   await samplePage.printAndCancelQr(qrDialog);
   const sampleId = await samplePage.extractSampleId();
+  expect(sampleId).toMatch(/^SMP\d+\s*-\s*\d+$/);
   console.log(`Sample created successfully | Sample ID: ${sampleId}`);
   await samplePage.openShipments();
   await samplePage.openNewShipment();

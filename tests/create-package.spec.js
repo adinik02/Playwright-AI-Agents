@@ -1,5 +1,5 @@
 import { randomUUID } from 'node:crypto';
-import { test } from '@playwright/test';
+import { expect, test } from '@playwright/test';
 import { PackageManagementPage } from '../pages/package-management.page.js';
 
 test.use({ trace: 'off' });
@@ -18,11 +18,12 @@ test.describe('Package management', () => {
     await packagePage.open(BASE_URL);
     await packagePage.signIn(TEST_USERNAME, TEST_PASSWORD);
     await packagePage.openMyPackages();
-    await packagePage.createPackage({
+    const successAlert = await packagePage.createPackage({
       packageName,
       associatedTest: 'Associated Test - AT(1)',
       equipmentId: 'EM-300',
     });
+    await expect(successAlert).toContainText(/Package saved successfully/i);
     console.log(`Package created successfully | Package Name: ${packageName}`);
   });
 });

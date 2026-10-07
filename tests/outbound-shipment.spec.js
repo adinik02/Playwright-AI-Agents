@@ -1,4 +1,4 @@
-import { test } from '@playwright/test';
+import { expect, test } from '@playwright/test';
 import { OutboundShipmentPage } from '../pages/outbound-shipment.page.js';
 
 test.setTimeout(120_000);
@@ -18,6 +18,8 @@ test.describe('Normal Outbound', () => {
     await shipmentPage.selectRequestedSample();
     await shipmentPage.completeContentDetails();
     const result = await shipmentPage.createShipment();
+    expect(result.successMessage).toMatch(/Shipment created successfully/i);
+    expect(result.shipmentId).toMatch(/^\d+$/);
     console.log(`${result.successMessage} | Shipment ID: ${result.shipmentId}`);
   });
 });
@@ -36,6 +38,8 @@ test.describe('Outbound NCS', () => {
     await shipmentPage.completeNonCustomerBasicDetails();
     await shipmentPage.completeNonCustomerContentDetails();
     const result = await shipmentPage.createShipment();
+    expect(result.successMessage).toMatch(/Shipment created successfully/i);
+    expect(result.shipmentId).toMatch(/^\d+$/);
     console.log(`${result.successMessage} | Shipment ID: ${result.shipmentId}`);
   });
 });
@@ -54,6 +58,8 @@ test.describe('Outbound NCS2', () => {
     await shipmentPage.completeNonCustomerBasicDetails();
     await shipmentPage.completeNonCustomerContentDetails();
     const result = await shipmentPage.createShipment();
+    expect(result.successMessage).toMatch(/Shipment created successfully/i);
+    expect(result.shipmentId).toMatch(/^\d+$/);
     console.log(`${result.successMessage} | Shipment ID: ${result.shipmentId}`);
   });
 });
@@ -73,6 +79,8 @@ test.describe('Outbound2', () => {
     await shipmentPage.selectTwoAvailableSamples();
     await shipmentPage.completeTwoSampleContentDetails();
     const result = await shipmentPage.createShipment();
+    expect(result.successMessage).toMatch(/Shipment created successfully/i);
+    expect(result.shipmentId).toMatch(/^\d+$/);
     console.log(`${result.successMessage} | Shipment ID: ${result.shipmentId}`);
   });
 });

@@ -1,4 +1,4 @@
-import { test } from '@playwright/test';
+import { expect, test } from '@playwright/test';
 import { InboundShipmentPage } from '../pages/inbound-shipment.page.js';
 
 test.setTimeout(120_000);
@@ -17,6 +17,8 @@ test.describe('Normal Inbound', () => {
     await shipmentPage.completeBasicDetails();
     await shipmentPage.completeContentDetails();
     const result = await shipmentPage.createShipment();
+    expect(result.successMessage).toMatch(/Shipment created successfully/i);
+    expect(result.shipmentId).toMatch(/^\d+$/);
     console.log(`${result.successMessage} | Shipment ID: ${result.shipmentId}`);
   });
 });
@@ -35,6 +37,8 @@ test.describe('Inbound NCS', () => {
     await shipmentPage.completeBasicDetails();
     await shipmentPage.completeNcsContentDetails();
     const result = await shipmentPage.createShipment();
+    expect(result.successMessage).toMatch(/Shipment created successfully/i);
+    expect(result.shipmentId).toMatch(/^\d+$/);
     console.log(`${result.successMessage} | Shipment ID: ${result.shipmentId}`);
   });
 });

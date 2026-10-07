@@ -57,14 +57,13 @@ export class PackageManagementPage {
     });
     await this.page.locator('.checkbox').click();
     await this.page.locator('#SavePackage').click();
+    const successAlert = this.page.getByRole('alert').filter({
+      hasText: /Package saved successfully/i,
+    });
+    await expect(successAlert).toBeVisible({ timeout: LOGIN_TIMEOUT });
     await expect(
       this.page.getByRole('button', { name: 'Add New Package' }),
     ).toBeVisible({ timeout: LOGIN_TIMEOUT });
-    await this.page
-      .getByRole('searchbox', { name: 'Search by ID, name, or test' })
-      .fill(packageName);
-    await expect(
-      this.page.getByRole('row').filter({ hasText: packageName }).first(),
-    ).toBeVisible({ timeout: LOGIN_TIMEOUT });
+    return successAlert;
   }
 }
